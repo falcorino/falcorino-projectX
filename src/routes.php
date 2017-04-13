@@ -7,7 +7,6 @@
 
     $app->map(['GET', 'POST'], '/{page}', function ($request, $response, $args) {
         $tpl = "index.php";
-        // var_dump($tpl);
         $renderParams = [
             "c"        => "acac",
             "page"     => $args['page'],
