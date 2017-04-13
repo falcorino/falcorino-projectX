@@ -6,7 +6,18 @@ return [
 
         // Renderer settings
         'renderer' => [
-            'template_path' => __DIR__ . '/../templates/',
+            'template_path' => __DIR__ . '/../public/view',
+        ],
+
+        'admin_renderer' => [
+            'template_path' => __DIR__ . '/../public/view_admin',
+        ],
+
+        'db' => [
+            'host'   => "localhost",
+            'user'   => "user",
+            'pass'   => "password",
+            'dbname' => "exampleapp",
         ],
 
         // Monolog settings
