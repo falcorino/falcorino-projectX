@@ -6,11 +6,11 @@ return [
 
         // Renderer settings
         'renderer' => [
-            'template_path' => __DIR__ . '/../public/view',
+            'template_path' => __DIR__ . '../public/view',
         ],
 
         'admin_renderer' => [
-            'template_path' => __DIR__ . '/../public/view_admin',
+            'template_path' => __DIR__ . '../public/view_admin',
         ],
 
         'db' => [
