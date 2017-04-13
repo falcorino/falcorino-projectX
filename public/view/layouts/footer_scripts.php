@@ -1,7 +1,5 @@
-        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
-
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script src="/assets/js/jquery-3.2.1.min.js"></script>
+        <script src="/assets/plugins/bootstrap-3.3.7/js/bootstrap.min.js"></script>
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
